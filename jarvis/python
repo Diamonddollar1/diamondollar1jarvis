@@ -1,0 +1,51 @@
+import speech_recognition as sr
+import pyttsx3
+import os
+import sys
+
+def say(Text):
+    engine = pyttsx3.init('nsss')
+    voices = engine.getProperty("voices")
+    engine.setProperty("voice", voices[0].id)
+    engine.setProperty("rate", 170)
+    print("   ")
+    print(f"J.A.R.V.I.S.: {Text}\n")
+    engine.say(text=Text)
+    #print(voices[5].id)
+    engine.runAndWait()
+
+def takeCommand():
+    #It takes microphone input from the user and returns string output
+
+    r = sr.Recognizer()
+    with sr.Microphone() as source:
+        print("Listening...")
+        r.pause_threshold = 1
+        audio = r.listen(source, timeout=5,phrase_time_limit=5)
+
+    try:
+        print("Recognizing...")    
+        query = r.recognize_google(audio, language='en-in')
+        print(f"User: {query}")
+
+    except Exception as e:
+        # print(e)    
+        print("Pardon")  
+        return "none"
+    return query
+
+if __name__ == "__main__":
+    while True:
+        query = takeCommand().lower()
+
+        if"jarvis"in query:
+            say("oh sir")
+        
+        elif "close program" in query:
+            say("Thanks for using me Sir. See you later")
+            sys.exit()
+
+engine = pyttsx3.init('sapi5')
+voices = engine.getProperty('voices')
+# print(voices[0].id)
+engine.setProperty('voice', voices[0].id)

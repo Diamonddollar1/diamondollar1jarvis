@@ -1,0 +1,157 @@
+{
+    "intents":[
+        {
+            "tag":"greeting",
+            "patterns":[
+                "hello","hai","hii","hey","hiya","hey there","haya","howdy","yo"
+            ],
+            "responses":[
+                "Hello! Its great to see you again!","Hi!","Hey!","Sup! Anything new lately?","Howdy! Good to see you!"
+            ]
+        },
+        {
+            "tag":"bye",
+            "patterns":[
+                "bye","good bye","sleep","exit","shut down","that's it for now","got to go","i have to go now","see you later","bye bye","goodbye","see you soon","i must get going","i have to go","i have to get going","i have to get going now","i should get going now","talk to you later","i'm out of here","i am out of here","got to go now","i have to leave","i have to leave now"
+            ],
+            "responses":[
+                "Bye! Have a good time!","Ok, Bye!","Oh, ok bye!","Goodbye! See you soon!","Bye bye! See you later!","It was nice talking to you! Bye!","Ok, have a nice day! Bye!","Ok, Have a good time!","It was nice seeing you! Goodbye!","Hope you have a good time! Bye!"
+            ]
+        },
+        {
+            "tag":"health",
+            "patterns":[
+                "how are you","how are you doing","how do you do","how's it going","are you fine","are you ok","are you good","how have you been","how is it going","what's up","how have you been","what up","sup","how you","are you alright","how are things with you","are you doing good","are you feeling well","are you good right now"
+            ],
+            "responses":[
+                "I am fine! How are you?","I am doing great! How are you doing?","I am doing good! How are you?","I am great! What about you?","I am cool! How are you?","Never been better! You?","Nothing much going on with me lately, What about you?","I'm good, How has your day been?","I am feeling great actually! How's your day going?","I am always fine. Anything new?","Thanks for asking! I am fine. What about you?","Kind of you to ask! I am great? How are you doing?","Thanks for asking! I am fine! And you?"
+            ]
+        },
+        {
+            "tag":"identity",
+            "patterns":[
+                "what are you","who are you","what is your name","what are you called","what are you exactly"
+            ],
+            "responses":[
+                "My name is Jarvis! Your personal A I assistant and comapnion!","I am Jarvis! Your friend and companion.","You can call me Jarvis! You can tell me anything!","Me? I am Jarvis! Your A I Companion","Just call me Jarvis!","Jarvis, The best A I companion!"
+            ]
+        },
+        {
+            "tag":"time",
+            "patterns":[
+                "what is the time","tell me the time","what is the time right now","what's the time","tell the time","say the time","what time is it right now","what time is it","what's the time right now","tell right now's time"
+            ],
+            "responses":[
+                "time"
+            ]
+        },
+        {
+            "tag":"date",
+            "patterns":[
+                "what is the date","tell me the date","what is the date today","what's the date","tell me the date","say the date","what date is it today","what date is it","what's the date today","what is today's date","tell the date","tell today's date","what date today"
+            ],
+            "responses":[
+                "date"
+            ]
+        },
+        {
+            "tag":"day",
+            "patterns":[
+                "what is the day","tell me the day","what is the day today","what's the day","tell me the day","say the day","what day is it today","what day is it","what's the day today","tell the day","tell today's day","what day today"
+            ],
+            "responses":[
+                "day"
+            ]
+        },
+        {
+            "tag":"wikipedia",
+            "patterns":[
+                "wikipedia","what is","who is","where is","when is","tell me about"
+            ],
+            "responses":[
+                "wikipedia"
+            ]
+        },
+        {
+            "tag":"google",
+            "patterns":[
+                "google","search google","google search","search Google","Google search","Google"
+            ],
+            "responses":[
+                "google"
+            ]
+        },
+        {
+            "tag":"joke",
+            "patterns":[
+                "tell me a joke","tell a joke","say a joke","say any joke","make me laugh","tell me a joke again","say another joke","tell another joke","tell me another joke","another joke please","just tell a joke","i want to hear a joke","i wanna hear a joke","do you have any good jokes","can you tell me a joke","can you say any joke","tell me a good joke","good jokes that i can use","say a good joke","tell me a funny joke","say a funny joke","tell me something funny"
+            ],
+            "responses":[
+                "How about, Why don't pirates take a shower before they walk the plank? They just wash up on shore.","Ok here, What did the pirate say when he turned 80? Aye matey!","This one is good, Did you hear about that new broom? It's sweeping the nation!","Ok, how about, What happened when the grape crossed the road? It was a traffic jam!","Ok, Why did the picture go to jail? Because he was framed!","This makes me laugh, What's the best time to go to the dentist? ToothHurty p m.","This is a good one, What can't you run through a campground? You can only ran as it is past tents.","Ok, this one is good, What did one plate say to the other? Lunch is on me!","What's the difference between a guitar and a fish? You can't tuna fish!","Ok, What do you call cheese that's not yours? Nacho Cheese!"
+            ]
+        },
+        {
+            "tag":"healthreplypositive",
+            "patterns":[
+                "i am fine","i am good","i am great","i am doing fine","i am doing good","i am doing great","never been better","i feel amazing","i feel good","i'm fine","i'm good","i'm great","i feel great","i am doing just fine","my day has been good","life is good","everything is fine with me","eveything's fine with me","i feel nice","i'm pretty good","i am well","i am alright","i'm alright","i am happy"
+            ],
+            "responses":[
+                "Oh, That's good to hear!","I'm glad to hear that!","Oh, That's good to know!","Glad to hear it!","Good to see that you are well!","Glad to hear that!"
+            ]
+        },
+        {
+            "tag":"healthreplynegative",
+            "patterns":[
+                "i am not feeling fine","i am not feeling that good","i am not feeling that great","i have been better","i've been better","i am sick","i am not feeling well","my day has been bad","i am sad","i feel like crying","i dont feel very happy","i am depressed","i am in depression","i am brokenhearted","i am broken hearted","i feel distressed","i feeltroubled","i am having trouble","i am having troubles","i feel uneasy","i am worried","i am upset","i feel aggrieved","i feel downcast","i feel dejected","i feel woeful"
+            ],
+            "responses":[
+                "Oh, Is there anything I can do to help?","I am so sorry. I am here if you need me.","Oh, just know that I am here for you.","I am sorry. Hope you will feel better.","Oh, you can talk to me about it if you like.","Oh, I feel for you. I am always here for you.","I feel for you. Is there anything I can do to help?","Oh, if you need someone, I am here.","Oh, I hope you will feel better. Ask me to tell a joke!"
+            ]
+        },
+        {
+            "tag":"helpask",
+            "patterns":[
+                "could you help me","please help me","can you help me","could you help me with something","can you help me with something","could you please help","i need help with something","i need some help","i require some assistance","i require some help","i need some assistance","help me with this","can you try and help me","could you assist me","can you assist me","could you do something for me","do one thing","do something for me"
+            ],
+            "responses":[
+                "Ok, What can I do to help?","Sure, What can I do to help you?","Oh ok, How may I help you?","Sure, How can I be of any assistance?","Ok, How may I assist you?","Sure, what do you need me to do?","Sure, What do you want me to do?"
+            ]
+        },
+        {
+            "tag":"youtubePlay",
+            "patterns":[
+                "play on youtube","play youtube","on youtube play","play from youtube","youtube play","play video on youtube","play the video on youtube","play video on youtube"
+            ],
+            "responses":[
+                "youtubePlay"
+            ]
+        },
+        {
+            "tag":"playSong",
+            "patterns":[
+                "play the song","play a song","play song","song play","play some song","song play","play a song on","play a song on youtube"
+            ],
+            "responses":[
+                "playSong"
+            ]
+        },
+        {
+            "tag":"youtubeSearch",
+            "patterns":[
+                "search on youtube","search youtube","youtube search","search youtube for","search on youtube for","search in youtube"
+            ],
+            "responses":[
+                "youtubeSearch"
+            ]
+        },
+        {
+            "tag":"thanking",
+            "patterns":[
+                "thank you","thanks","thank you so much","thank you very much","thanks so much","thanks very much","t y s m","thanks for your help","thanks for your assistance","thank you for the help","thank you for your help","thanks for helping me","thanks for everything","t y so much","thank you s m","i am so grateful","i appreciate it","i couldn't have done it without you","please accept my deepest gratitude","i owe you one","i couldn't have done it without you","i can't thank you enough","that's so kind of you","that is so kind od you"
+            ],
+            "responses":[
+                "You'r always welcome!","It's my pleasure!","You'r most welcome!","I am glad I could help!"
+            ]
+        }
+    ]
+}

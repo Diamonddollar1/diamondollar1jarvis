@@ -1,0 +1,15 @@
+current working features of jarvis:
+
+wish function
+play music from files
+open websites
+open few application
+wikepedia
+close applications
+find ip
+tell joke
+exit programm
+shutdow,sleep the computer
+
+
+
